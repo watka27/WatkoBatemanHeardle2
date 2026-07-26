@@ -4233,7 +4233,7 @@ var app = (function () {
     if (!namesNotUsed.includes(1)) {
       names.push(music.unofficial)
     }
-    return [...new Set(names)].join("/ ") + music.game
+    return [...new Set(names)].join("/") + " - " + music.game
   }
 
   function getGameOrArtistFromMusicName(musicNameList) {
