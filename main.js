@@ -12,7 +12,6 @@ var app = (function () {
       id: -1,
       name: "",
       game: "",
-      unofficial: "",
     })
   );
 
