@@ -11,7 +11,6 @@ var app = (function () {
     new Array(musicNameList.length).fill({
       id: -1,
       name: "",
-      help: "",
       game: "",
       unofficial: "",
     })
