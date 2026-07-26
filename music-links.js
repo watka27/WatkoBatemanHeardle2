@@ -1058,7 +1058,7 @@ var musicListWithLinks = [
         answer: 260,
     },
     {
-        url: "https://soundcloud.com/beignet0/tumult-the-slaughtered",
+        url: "https://soundcloud.com/user-528961023/steel-pulse-born-fe-rebel",
         answer: 261,
     },
     {
