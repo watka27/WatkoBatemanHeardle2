@@ -4195,15 +4195,9 @@ var app = (function () {
         (n = w("div")),
           (n.innerHTML =
             '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for ' +
+            ' a random bunch of songs that Michael Bateman and Ashley Watkinson reference. Based on <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a>.</p> \n\n<p class="mb-3">Each ' +
             artist +
-            ' musics. Based on <a href="https://joywave-heardle.glitch.me/" title="Joywave Heardle">Joywave Heardle</a>.</p> \n\n<p class="mb-3">Each ' +
-            artist +
-            " Heardle is randomly chosen from " +
-            artist +
-            '\'s soundtrack.</p> \n\n' +
-            '<p class="mb-3">The list of musics and officials names come from <a href="https://vgmdb.net/" title="VGMdb">VGMdb</a>. Unofficial names are names used before Etrian Odyssey OST had official translations. They were translated by fans and shared by users such as <a href="https://www.youtube.com/@Banim">Banim</a> and <a href="https://www.youtube.com/@TheFabulousTroupe">TheFabulousTroupe</a>.</p>' +
-            (diff > 0 ? '<p class="mb-3">If you played before ' + dateBeforeBugStreak +
-              ' and didn\'t clear your local storage, the stats "Current Streak" and "Max Streak" might be broken until you clear the local storage.</p>' : "")
+            " Heardle is randomly chosen from database of Soundcloud songs."</p> \n\n'
             + '<p class="mb-3">Want to make your own Heardle? Check out the <a href="https://github.com/nterrien/etrian-heardle">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://github.com/">Github</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
@@ -4738,7 +4732,7 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next " + artist + " song in:"),
+            (k.textContent = "Next song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
