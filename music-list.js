@@ -1884,8 +1884,8 @@ var musicNameList = [
     },
     {
         id: 261,
-        name: "Tumult: The Slaughtered",
-        performer: "Etrian Odyssey Nexus",
+        name: "Born Fe Rebel",
+        performer: "Steel Pulse",
     },
     {
         id: 262,
