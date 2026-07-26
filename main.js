@@ -11,7 +11,7 @@ var app = (function () {
     new Array(musicNameList.length).fill({
       id: -1,
       name: "",
-      game: "",
+      performer: "",
     })
   );
 
@@ -3833,7 +3833,7 @@ var app = (function () {
     P(() => {
       !(function () {
         const e = new wt({
-          placeHolder: "Know it? Search for the title / game",
+          placeHolder: "Know it? Search for the title / performer",
           threshold: 1,
           wrapper: !1,
           resultsList: {
@@ -4229,12 +4229,12 @@ var app = (function () {
     if (!namesNotUsed.includes(0)) {
       names.push(music.name)
     }
-    return [...new Set(names)].join("/") + " - " + music.game
+    return [...new Set(names)].join("/") + " - " + music.performer
   }
 
   function getGameOrArtistFromMusicName(musicNameList) {
     return musicNameList
-      .map((a) => a.game)
+      .map((a) => a.performer)
       .filter((m) => m.length > 0);
   }
 
@@ -10285,7 +10285,7 @@ var app = (function () {
         let t = e.detail.currentSong;
         let musicString = musicNameList.find((a) => a.id == l.correctAnswer);
         // console.log("current song", l);
-        n(2, (l.artist = musicString.game), l),
+        n(2, (l.artist = musicString.performer), l),
           n(2, (l.title = getName(musicString).split(" - ")[0]), l),
           n(2, (l.img = t.artwork_url), l),
           n(2, (l.duration = t.duration), l),
