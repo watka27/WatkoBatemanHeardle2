@@ -4230,9 +4230,6 @@ var app = (function () {
     if (!namesNotUsed.includes(0)) {
       names.push(music.name)
     }
-    if (!namesNotUsed.includes(1)) {
-      names.push(music.unofficial)
-    }
     return [...new Set(names)].join("/") + " - " + music.game
   }
 
