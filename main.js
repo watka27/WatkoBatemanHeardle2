@@ -1,5 +1,5 @@
 var app = (function () {
-  var artist = "Etrian Odyssey";
+  var artist = "Watko Bateman";
   var startDate = "2022-07-31"; // Original Start Date, used to know the current heardle
   var seed = 565099537; // seed used for rng to select today's music
 
