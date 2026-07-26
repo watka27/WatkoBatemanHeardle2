@@ -1885,9 +1885,7 @@ var musicNameList = [
     {
         id: 261,
         name: "Tumult: The Slaughtered",
-        help: "Boss Battle (1st Part)",
         performer: "Etrian Odyssey Nexus",
-        unofficial: "Tumult: The Slaughtered"
     },
     {
         id: 262,
